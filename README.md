@@ -1,0 +1,23 @@
+# Typed event target
+
+<p align="center">
+  <a href="https://jsr.io/@hydroper/typedeventtarget"><img src="https://img.shields.io/jsr/v/@hydroper/typedeventtarget"></a>
+  <a href="https://jsr.io/@hydroper/typedeventtarget/doc"><img src="https://img.shields.io/badge/API%20Documentation-gray"></a>
+</p>
+
+Easily define event types for an `EventTarget`, crediting to [this article](https://dev.to/marcogrcr/type-safe-eventtarget-subclasses-in-typescript-1nkf).
+
+## Getting started
+
+The following program defines `play` and `stop` events.
+
+```ts
+import { TypedEventTarget } from "@hydroper/typedeventtarget";
+
+class MediaPlayer extends (EventTarget as TypedEventTarget<{
+    play: CustomEvent<MediaPlayerEvent>;
+    stop: CustomEvent<MediaPlayerEvent>;
+}>) {}
+```
+
+> Note that event types must implement the `Event` interface, thus in the previous program `CustomEvent` is used; if there was no data, it could have just been `Event` itself.

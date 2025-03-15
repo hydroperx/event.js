@@ -1,6 +1,6 @@
 {
   "name": "com.hydroper.typedeventtarget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide types of dispatched events in event targets.",
   "main": "src/index.ts",
   "repository": "https://github.com/realhydroper/typedeventtarget",

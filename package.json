@@ -1,9 +1,9 @@
 {
-  "name": "com.hydroper.typedeventtarget",
+  "name": "@hydroper/event",
   "version": "1.0.1",
   "description": "Provide types of dispatched events in event targets.",
   "main": "src/index.ts",
-  "repository": "https://github.com/realhydroper/typedeventtarget",
+  "repository": "https://github.com/realhydroper/event",
   "license": "Apache-2.0",
   "author": "Hydroper <HydroperFox@gmail.com>",
   "keywords": ["event"],

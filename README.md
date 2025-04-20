@@ -1,13 +1,13 @@
-# Typed event target
+# Event
 
-Easily define event types for an `EventTarget`, crediting to [this article](https://dev.to/marcogrcr/type-safe-eventtarget-subclasses-in-typescript-1nkf).
+Easily define event types for an `EventTarget`. Credits to [this article](https://dev.to/marcogrcr/type-safe-eventtarget-subclasses-in-typescript-1nkf).
 
 ## Getting started
 
 The following program defines `play` and `stop` events.
 
 ```ts
-import { TypedEventTarget } from "com.hydroper.typedeventtarget";
+import { TypedEventTarget } from "@hydroper/event";
 
 class MediaPlayer extends (EventTarget as TypedEventTarget<{
     play: CustomEvent<MediaPlayerEvent>;

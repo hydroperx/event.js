@@ -7,7 +7,7 @@ Easily define event types for an `EventTarget`. Credits to [this article](https:
 The following program defines `play` and `stop` events.
 
 ```ts
-import { TypedEventTarget } from "@hydroper/event";
+import { TypedEventTarget } from "@hydroperx/event";
 
 class MediaPlayer extends (EventTarget as TypedEventTarget<{
     play: CustomEvent<MediaPlayerEvent>;

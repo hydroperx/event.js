@@ -1,6 +1,6 @@
 {
   "name": "@hydroperx/event",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provide types of dispatched events in event targets.",
   "scripts": {
     "build": "tsc",
@@ -12,6 +12,7 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": ["/dist"],
   "repository": "https://github.com/hydroperx/event",
   "license": "Apache-2.0",
   "author": "Hydroper <HydroperFox@gmail.com>",

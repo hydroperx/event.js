@@ -16,5 +16,8 @@
   "repository": "https://github.com/hydroperx/event",
   "license": "Apache-2.0",
   "author": "Hydroper <HydroperFox@gmail.com>",
-  "keywords": ["event"]
+  "keywords": ["event"],
+  "devDependencies": {
+    "typescript": "~5.6.2"
+  }
 }

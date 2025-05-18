@@ -13,7 +13,7 @@
     }
   },
   "files": ["/dist"],
-  "repository": "https://github.com/hydroperx/event",
+  "repository": "https://github.com/hydroperx/event.js",
   "license": "Apache-2.0",
   "author": "Hydroper <HydroperFox@gmail.com>",
   "keywords": ["event"],
